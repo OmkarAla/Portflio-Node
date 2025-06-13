@@ -16,7 +16,6 @@ A fully responsive single-page portfolio website created as part of the **Eco AI
 ## 🔗 Deployment
 
 - **Live URL**: [Click here to view](https://your-vercel-url.vercel.app)  
-  *(Replace with your actual Vercel URL)*
 
 ### 🧪 Deploy Instructions (Vercel)
 
@@ -31,10 +30,9 @@ git clone https://github.com/your-username/portfolio.git
 # 2. Navigate to the project folder
 cd portfolio
 
-# 3. Open index.html directly in a browser
-# OR deploy to a platform like Netlify or Vercel
+# 3. Open index.html directly in a browser OR deploy to a platform like Netlify or Vercel
 
-
+```bash
 portfolio/
 ├── css/
 │   └── styles.css
@@ -52,3 +50,4 @@ portfolio/
 │   ├── projects.html
 │   └── contact.html
 └── index.html
+```
