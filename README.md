@@ -1,51 +1,54 @@
-Portfolio Website
-Overview
-A responsive single-page portfolio website built for the Eco AI Media Assignment, showcasing web development skills with a Three.js 3D model integration.
-Technologies Used
+# 🌐 Portfolio Website — Eco AI Media Internship Assignment
 
-HTML, CSS, JavaScript
-Tailwind CSS
-Three.js (for 3D model integration)
+## 📌 Overview
+A fully responsive single-page portfolio website created as part of the **Eco AI Media Frontend Internship Assignment**. This project demonstrates web development skills including modular design, responsiveness, and 3D integration using **Three.js**.
 
-Deployment
+---
 
-Deployed on: [Vercel URL] (replace with actual URL after deployment)
-Steps: npm install, vercel deploy
+## 🚀 Technologies Used
 
-3D Integration
+- **HTML5**, **CSS3**, **JavaScript (Vanilla)**
+- **Tailwind CSS** – Utility-first styling
+- **Three.js** – For 3D model integration and interaction
 
-Method: Three.js
-Location: Hero section
-Description: Interactive spinning 3D cube with OrbitControls for rotation and zoom.
+---
 
-Setup Instructions
+## 🔗 Deployment
 
-Clone the repository: git clone [repo-url]
-Navigate to the project folder: cd portfolio
-Open index.html in a browser or deploy to a hosting platform (e.g., Vercel, Netlify).
+- **Live URL**: [Click here to view](https://your-vercel-url.vercel.app)  
+  *(Replace with your actual Vercel URL)*
 
-Folder Structure
-/portfolio
-├── /css
+### 🧪 Deploy Instructions (Vercel)
+
+```bash
+npm install
+vercel deploy
+```
+
+# 1. Clone the repository
+git clone https://github.com/your-username/portfolio.git
+
+# 2. Navigate to the project folder
+cd portfolio
+
+# 3. Open index.html directly in a browser
+# OR deploy to a platform like Netlify or Vercel
+
+
+portfolio/
+├── css/
 │   └── styles.css
-├── /js
+├── js/
 │   └── script.js
-├── /images
+├── images/
 │   ├── background.jpg
 │   ├── profile.jpg
 │   ├── project1.jpg
 │   ├── project2.jpg
 │   └── project3.jpg
-├── /components
+├── components/
 │   ├── hero.html
 │   ├── about.html
 │   ├── projects.html
 │   └── contact.html
 └── index.html
-
-Notes
-
-Ensure images are optimized for performance.
-Test responsiveness using Chrome DevTools.
-The contact form includes JavaScript validation for empty fields and email format.
-
